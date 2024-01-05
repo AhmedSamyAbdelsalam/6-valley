@@ -1,5 +1,5 @@
 <?php
-
+namespace Database\Seeds;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
@@ -7,7 +7,7 @@ use Illuminate\Support\Str;
 class AdminTable extends Seeder
 {
     /**
-     * Run the database seeds.
+     * Run the database seeders.
      *
      * @return void
      */
